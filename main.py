@@ -4,9 +4,9 @@ import logging
 from re import L
 from aiogram import Bot, Dispatcher, executor, types
 import markups as nav
-from token import TOKEN
+import token
 
-Token = TOKEN
+Token = token.TOKEN
 bot = Bot(token=Token)
 dp = Dispatcher(bot)
 logging.basicConfig(level=logging.INFO)
